@@ -4,7 +4,7 @@ const userServices={}
 
 userServices.register=function(data){
 
-    return axios.post('http://localhost:5000/users/signup',data)
+    return axios.post('https://bango-chat-youssef-fathallah.onrender.com/users/signup',data)
 }
 userServices.signin=function(data){
     return axios.post('http://localhost:5000/users/signin',data)
